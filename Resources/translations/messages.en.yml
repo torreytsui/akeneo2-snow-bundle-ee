@@ -1,0 +1,15 @@
+batch_jobs:
+    snowio_complete_export:
+        label: "Full Published Export (published products, variant groups, categories, attributes, attribute options, families and attribute groups)"
+        product.label: "Published Product Export Step"
+        variant_group.label: "Variant Group Export Step"
+        category.label:  "Category Export Step"
+        attribute.label: "Attribute Export Step"
+        attribute_option.label: "Attribute Option Export Step"
+        family.label: "Family Export Step"
+        attribute_group.label: "Attribute Group Export Step"
+        archive.label: "Archive Step"
+        metadata.label: "Metadata Step"
+        post.label: "Post Step"
+        media_export.label: "Media Export Step"
+        check_thresholds.label: "Check Thresholds Step"
