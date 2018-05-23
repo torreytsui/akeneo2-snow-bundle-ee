@@ -21,7 +21,6 @@
         }
     ],
     "require": {
-//        "snowio/akeneo2-snow-bundle": "^1.0",
         "akeneo/pim-enterprise-dev": "2.*.*"
     },
     "autoload": {
