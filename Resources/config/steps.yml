@@ -1,0 +1,8 @@
+services:
+    # Extend pimee csv_published_product export to customize the writer
+    snowio_connector.step.csv_published_product.export:
+        class: '%pim_connector.step.item_step.class%'
+        parent: 'pimee_workflow.step.csv_published_product.export'
+        arguments:
+            index_0: 'product'
+            index_5: '@snowio_connector.writer.file.csv_product'
