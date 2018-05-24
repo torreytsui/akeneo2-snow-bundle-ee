@@ -3,7 +3,7 @@
 This bundle provides a new job on the connector called Snowio Connector that allow us to export all the data from just on job, zip them and send to snowio endpoint.
 
 * Full Job Published Products
-    * Export (published products, variant groups, categories, attributes, attribute options, and families)  
+    * Export (published products, product models, categories, attributes, attribute options, and families)  
 
 
 ### Installation

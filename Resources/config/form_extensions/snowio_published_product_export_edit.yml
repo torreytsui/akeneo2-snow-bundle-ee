@@ -236,15 +236,6 @@ extensions:
         targetZone: meta
         position: 100
 
-    snowio-csv-published-product-export-edit-back-to-grid:
-        module: pim/form/common/back-to-grid
-        parent: snowio-csv-published-product-export-edit
-        targetZone: back
-        aclResourceId: pim_importexport_export_profile_index
-        position: 80
-        config:
-            backUrl: pim_importexport_export_profile_index
-
     snowio-csv-published-product-export-edit-delete:
         module: pim/job/export/edit/delete
         parent: snowio-csv-published-product-export-edit
