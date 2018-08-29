@@ -6,3 +6,11 @@ services:
         arguments:
             index_0: 'product'
             index_5: '@snowio_connector.writer.file.csv_product'
+
+    # Extend pimee csv_asset_variation export to customize the writer
+    snowio_connector.step.csv_asset_variation.export:
+        class: '%pim_connector.step.item_step.class%'
+        parent: 'pimee_product_asset.step.csv_asset_variation.export'
+        arguments:
+            index_0: 'asset_variation'
+            index_5: '@snowio_connector.writer.file.csv_asset_variation'

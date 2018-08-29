@@ -13,6 +13,7 @@ class SnowioCsvConnectorEeExtension extends Extension
     {
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('steps.yml');
+        $loader->load('writers.yml');
         $loader->load('jobs.yml');
         $loader->load('form_parameters.yml');
         $loader->load('job_defaults.yml');

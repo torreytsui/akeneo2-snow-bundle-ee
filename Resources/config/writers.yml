@@ -1,0 +1,5 @@
+services:
+  # extends pimee csv_asset_variation writer to customise handling
+  snowio_connector.writer.file.csv_asset_variation:
+    class: %snowio_connector.writer.file.csv_simple.class%
+    parent: pimee_product_asset.writer.file.csv_asset_variation

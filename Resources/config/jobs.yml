@@ -18,6 +18,7 @@ services:
                 - '@snowio_connector.step.csv_family.export'
                 - '@snowio_connector.step.csv_family_variant.export'
                 - '@snowio_connector.step.csv_attribute_group.export'
+                - '@snowio_connector.step.csv_asset_variation.export'
                 - '@snowio_connector.step.metadata'
                 - '@snowio_connector.step.media_export'
                 - '@snowio_connector.step.archive'
